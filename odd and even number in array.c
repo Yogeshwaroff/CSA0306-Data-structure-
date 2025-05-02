@@ -7,11 +7,18 @@ int main()
     printf("Enter %d elements:\n",n);
     for(i = 0; i <n; i++) 
         scanf("%d", &a[i]);
+         printf("even\n");
     for(i = 0; i <n; i++) 
  {
  if(a[i]%2==0)
- printf("even %d\n",a[i]);
- else
- printf("odd %d\n",a[i]);}
+
+ printf("%d\n",a[i]);
+}
+printf("odd\n");
+for(i = 0; i <n; i++) 
+{
+if(a[i]%2!=0)
+
+ printf("%d\n",a[i]);}
     return 0;
 }
