@@ -17,12 +17,14 @@ int binarysearch(int a[],int n,int key)
 int main()
 {
 	int a[]={1,2,3,4,5,6,7},n,key,result;
+	printf("Enter the number");
 	scanf("%d",&key);
+	
 	n=sizeof(a)/sizeof(a[1]);
 	result=binarysearch(a,n,key);
 	if(result!=-1)
 	{
-	printf("yes");}
+	printf("yes the number is found");}
 	else
 	printf("no");
 	return 0;
